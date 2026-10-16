@@ -1,3 +1,7 @@
 [manifest]
 path = .
 file = west.yml
+
+[zephyr]
+base = breeze-sdk/zephyr
+

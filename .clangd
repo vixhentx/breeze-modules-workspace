@@ -1,0 +1,7 @@
+CompileFlags:
+  CompilationDatabase: build
+  Add:
+    - -I../breeze-sdk/zephyr/lib/cpp/minimal/include
+  Remove:
+    - -mfp16-format=ieee
+    - -fno-reorder-functions
