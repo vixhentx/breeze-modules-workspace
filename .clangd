@@ -2,6 +2,12 @@ CompileFlags:
   CompilationDatabase: build
   Add:
     - -I../breeze-sdk/zephyr/lib/cpp/minimal/include
+    - -I../breeze-sdk/zephyr/lib/libc/minimal/include/stdint.h
   Remove:
     - -mfp16-format=ieee
     - -fno-reorder-functions
+
+Diagnostics:
+  Suppress:
+    - vla-cxx-extension
+    - section

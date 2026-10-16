@@ -2,5 +2,11 @@
     "cmake.sourceDirectory": "${workspaceFolder}/breeze-modules",
     "nixEnvSelector.nixFile": "${workspaceFolder}/flake.nix",
     "nixEnvSelector.useFlakes": true,
-    "nixEnvSelector.flakeShell": "default"
+    "nixEnvSelector.flakeShell": "default",
+    "terminal.integrated.defaultProfile.linux": "Zephyr IDE Terminal",
+    "clangd.arguments": [
+        "--background-index",
+        "--completion-style=detailed",
+    ],
+    "cmake.configureOnOpen": false
 }
