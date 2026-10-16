@@ -1,10 +1,2 @@
-/*
-!.vscode
-!*.nix
-!nix
-!.west
-!west-local.yml
-!.envrc
-!flake.lock
-!.gitignore
-!west.yml
+.direnv
+result
