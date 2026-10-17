@@ -20,6 +20,9 @@ manifest:
     - name: breeze-modules-test
       path: breeze-modules-test
       revision: main
+    - name: algo
+      path: algo
+      revision: main
     - name: zephyr
       remote: upstream
       revision: main
