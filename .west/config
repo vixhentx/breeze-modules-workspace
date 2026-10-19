@@ -1,7 +1,6 @@
 [manifest]
-path = .
+path = breeze-modules-test
 file = west.yml
 
 [zephyr]
 base = breeze-sdk/zephyr
-
