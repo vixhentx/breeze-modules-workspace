@@ -1,1 +1,28 @@
-NamespaceIndentation: Inner
+---
+BasedOnStyle: Microsoft
+Language: Cpp
+UseTab: ForIndentation
+TabWidth: 4
+IndentWidth: 4
+
+PointerAlignment: Left
+
+# Brace & Break
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterFunction: true
+  SplitEmptyFunction: false
+BreakBeforeCloseBracketFunction: true
+BreakBeforeCloseBracketIf: true
+BreakBeforeCloseBracketLoop: true
+BreakBeforeCloseBracketSwitch: true
+BreakBeforeConceptDeclarations: true
+BreakBeforeTemplateCloser: true
+BreakTemplateDeclarations: Yes
+
+BinPackParameters: false
+AllowAllParametersOfDeclarationOnNextLine: false
+AlignAfterOpenBracket: BlockIndent
+PackConstructorInitializers: Never
+
+AccessModifierOffset: -4
