@@ -4,7 +4,7 @@
   let
     inherit (inputs') breeze;
   in {
-    devShells.default = breeze.devShells.workspace.overrideAttrs (old: {
+    devShells.default = breeze.devShells.development.overrideAttrs (old: {
       nativeBuildInputs = (old.nativeBuildInputs or []) ++ [
         pkgs.pkgsi686Linux.glibc
         pkgs.gcc_multi
