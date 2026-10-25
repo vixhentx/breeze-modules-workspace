@@ -22,6 +22,7 @@ BreakTemplateDeclarations: Yes
 
 BinPackParameters: false
 AllowAllParametersOfDeclarationOnNextLine: false
+AllowShortFunctionsOnASingleLine: true
 AlignAfterOpenBracket: BlockIndent
 PackConstructorInitializers: Never
 
