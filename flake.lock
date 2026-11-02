@@ -10,11 +10,11 @@
         "zephyr-nix": "zephyr-nix"
       },
       "locked": {
-        "lastModified": 1792775016,
-        "narHash": "sha256-lUwIW7ZwWSIOay8JwYX6vwwbaulWDWuAGq2TbBImD4w=",
+        "lastModified": 1793619054,
+        "narHash": "sha256-LgMg7oxe7xOPujmxo3a/QbOcDlRS9+wK+jKl8K82Sv0=",
         "owner": "vixhentx",
         "repo": "breeze",
-        "rev": "cd1645560bf7716769dc265d8cf6854b7d46de28",
+        "rev": "41d0dcf2f7ed0f0e15b3b3fc7570a81dbeeac4bc",
         "type": "github"
       },
       "original": {
